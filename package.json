@@ -2,7 +2,7 @@
   "name": "lab3",
   "version": "1.0.0",
   "description": "Labboration 3",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
@@ -15,5 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "parcel": "^2.11.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0"
   }
 }

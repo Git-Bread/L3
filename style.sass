@@ -1,0 +1,19 @@
+@use 'sass:color'
+
+$primaryColor: #02bd82ec
+$secondaryColor: #0446b1
+$thirdColor: #272729
+    
+@media (prefers-color-scheme: dark) 
+    $primaryColor: darken($primaryColor, 50%)
+    $secondaryColor: darken($primaryColor, 50%)
+    $thirdColor: darken($primaryColor, 50%)
+
+@mixin hoverHighlight 
+    &:hover 
+        filter: brightness(80%)
+
+*
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    @include hoverHighlight
+    
