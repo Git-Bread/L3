@@ -1,4 +1,4 @@
-6043
+6049
 110C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean133528219209835710 1
 63C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\timsort133528219206142359 1
 104C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\caniuse-lite\data\features\css-initial-letter.js133528219212868465 0
@@ -41,14 +41,14 @@
 84C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\css-tree\lib\walker\index.js133528219213178748 0
 112C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\csso\node_modules\css-tree\lib\tokenizer\adopt-buffer.js133528219212057726 0
 94C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\@swc\helpers\_\_ts_values\package.json133528219214289763 0
-47C:\Users\mgagn\Documents\plugg\Frontend\L3\dist133528408931697702 1
+47C:\Users\mgagn\Documents\plugg\Frontend\L3\dist133528411311141095 1
 87C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\caniuse-lite\data\regions\EC.js133528219214189665 0
 111C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\caniuse-lite\data\features\mdn-text-decoration-style.js133528219215741070 0
 93C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\csso\node_modules\css-tree\cjs\syntax133528219210406231 1
 84C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\semver\internal\constants.js133528219206572745 0
 64C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\has-flag133528219205214061 1
 107C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\css-select\node_modules\domutils\lib\esm\helpers.js133528219205371659 0
-53C:\Users\mgagn\Documents\plugg\Frontend\L3\style.sass133528408858123205 0
+53C:\Users\mgagn\Documents\plugg\Frontend\L3\style.sass133528410442456693 0
 71C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\detect-libc\lib133528219205762015 1
 61C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\@lmdb133528406666237471 1
 107C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_load.1133528219208494494 0
@@ -5679,6 +5679,7 @@
 132C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\atrule\import.js133528219210306137 0
 131C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\atrule\index.js133528219210636439 0
 131C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\atrule\media.js133528219211106864 0
+66C:\Users\mgagn\Documents\plugg\Frontend\L3\dist\index.b9a72b98.css133528410442876443 0
 125C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser\create.js133528219208274297 0
 123C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\error.js133528219209605510 0
 135C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic-an-plus-b.js133528219210025886 0
@@ -6039,6 +6040,11 @@
 69C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\.bin\sass.cmd133528406666197443 0
 71C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\.bin\semver.cmd133528219223022869 0
 69C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\.bin\svgo.ps1133528219223062911 0
+62C:\Users\mgagn\Documents\plugg\Frontend\L3\dist\L3.3464ddca.js133528409440940325 0
 83C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\.bin\update-browserslist-db133528219223062911 0
 87C:\Users\mgagn\Documents\plugg\Frontend\L3\node_modules\.bin\update-browserslist-db.cmd133528219223062911 0
-58C:\Users\mgagn\Documents\plugg\Frontend\L3\dist\index.html133528408931652312 0
+66C:\Users\mgagn\Documents\plugg\Frontend\L3\dist\index.8204e675.css133528411311101071 0
+70C:\Users\mgagn\Documents\plugg\Frontend\L3\dist\index.8204e675.css.map133528411311131088 0
+70C:\Users\mgagn\Documents\plugg\Frontend\L3\dist\index.b9a72b98.css.map133528410442896680 0
+58C:\Users\mgagn\Documents\plugg\Frontend\L3\dist\index.html133528411311101071 0
+66C:\Users\mgagn\Documents\plugg\Frontend\L3\dist\L3.3464ddca.js.map133528409440950327 0
