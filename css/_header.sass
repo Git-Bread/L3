@@ -1,0 +1,51 @@
+//header css
+@use 'colors' as c
+header
+    background-color: c.$secondaryColor
+
+    #top
+        display: flex
+
+        div
+            margin: auto
+            margin-left: 2vmax
+
+            h3
+                margin: 0
+                font-size: 3.5vmin
+
+            h1
+                font-size: 6vmin
+                margin: 0
+
+        picture
+            max-width: 40%
+
+            img
+                max-width: 100%
+
+    nav
+        display: flex
+        justify-content: space-around
+        border: solid 1px c.$thirdColor
+        background-color: c.$primaryColor
+
+        div
+            position: relative
+
+            button
+                background-color: c.$primaryColor
+                padding: 1vmin
+                border: none
+
+            div
+                position: absolute
+                z-index: 1
+                display: none
+                background-color: c.$primaryColor
+                border: 1px c.$thirdColor solid
+                border-radius: 10%
+                right: -25%
+
+            &:hover div
+                display: block

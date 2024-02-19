@@ -11,6 +11,28 @@ header #top {
   display: flex;
 }
 
+header #top div {
+  margin: auto auto auto 2vmax;
+}
+
+header #top div h3 {
+  margin: 0;
+  font-size: 3.5vmin;
+}
+
+header #top div h1 {
+  margin: 0;
+  font-size: 6vmin;
+}
+
+header #top picture {
+  max-width: 40%;
+}
+
+header #top picture img {
+  max-width: 100%;
+}
+
 header nav {
   background-color: #bfe5bc;
   border: 1px solid #509051;
@@ -25,7 +47,7 @@ header nav div {
 header nav div button {
   background-color: #bfe5bc;
   border: none;
-  padding: 1vmax;
+  padding: 1vmin;
 }
 
 header nav div div {
@@ -33,19 +55,13 @@ header nav div div {
   background-color: #bfe5bc;
   border: 1px solid #509051;
   border-radius: 10%;
-  padding: 1vmax 2vmax 1vmax 1vmax;
   display: none;
   position: absolute;
+  right: -25%;
 }
 
 header nav div:hover div {
   display: block;
-}
-
-h1 {
-  margin: 0;
-  padding: 2vmin;
-  font-size: 6vmin;
 }
 
 h2, button {

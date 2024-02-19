@@ -1,0 +1,27 @@
+//controller with misc css
+@use 'sass:color'
+@use 'colors' as c
+@use 'header'
+
+@mixin hoverHighlight 
+    &:hover 
+        background-color: color.scale(c.$primaryColor, $lightness: -10%, $saturation: 10%)
+        border: solid 1px black
+
+*
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    color: c.$textColor
+
+
+h2, button
+    font-size: 4vmin
+    text-decoration: underline
+    padding: 2vmin
+    border-radius: 2vmin
+    @include hoverHighlight
+    margin: 0
+
+//forced if statement cause i was to tired to figure out a decent one
+body
+    @if c.$mode
+        margin: 0
