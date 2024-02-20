@@ -2,8 +2,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     color: var(--text-color)
 
-p
+p, h3, a, h5
     max-width: 60ch
+    font-size: 1.5rem
 
 @mixin hoverHighlight 
     &:hover 
@@ -11,12 +12,13 @@ p
         border: solid 1px black
 
 h2, button
-    font-size: 4vmin
+    font-size: 2rem
     text-decoration: underline
     padding: 2vmin
     border-radius: 2vmin
     @include hoverHighlight
     margin: 0
+    font-weight: bold
 
 a
     color: var(--link-color)
@@ -29,10 +31,15 @@ a
 
 section
     article
-        background-color: var(--secondary-color)
-        padding: 3vmin
-        margin: 2vmin
-        border-radius: 2vmin
+        display: flex
+        justify-content: center
+
+        div
+            background-color: var(--secondary-color)
+            padding: 3vmin
+            margin: 2vmin
+            border-radius: 2vmin
+
     picture
         display: flex
         justify-content: center
