@@ -1,0 +1,23 @@
+*
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    color: var(--text-color)
+
+p
+    max-width: 60ch
+
+@mixin hoverHighlight 
+    &:hover 
+        background-color: var(--back-color)
+        border: solid 1px black
+
+h2, button
+    font-size: 4vmin
+    text-decoration: underline
+    padding: 2vmin
+    border-radius: 2vmin
+    @include hoverHighlight
+    margin: 0
+
+@media (prefers-color-scheme: dark) 
+    body
+        margin: 0

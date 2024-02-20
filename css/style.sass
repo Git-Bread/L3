@@ -2,6 +2,7 @@
 @use 'colors' as c
 @use 'header'
 @use 'footer'
+@use 'main'
 
 //global color themes depends on small script
 :root
@@ -16,24 +17,3 @@
     --third-color: #{c.$thirdColor-dark}
     --text-color: #{c.$textColor-dark}
     --back-color: #{c.$hoverColor-dark}
-
-@mixin hoverHighlight 
-    &:hover 
-        background-color: var(--back-color)
-        border: solid 1px black
-
-*
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    color: var(--text-color)
-
-h2, button
-    font-size: 4vmin
-    text-decoration: underline
-    padding: 2vmin
-    border-radius: 2vmin
-    @include hoverHighlight
-    margin: 0
-
-@media (prefers-color-scheme: dark) 
-    body
-        margin: 0
