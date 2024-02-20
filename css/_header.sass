@@ -1,7 +1,6 @@
 //header css
-@use 'colors' as c
 header
-    background-color: c.$secondaryColor
+    background-color: var(--secondary-color)
 
     #top
         display: flex
@@ -27,14 +26,14 @@ header
     nav
         display: flex
         justify-content: space-around
-        border: solid 1px c.$thirdColor
-        background-color: c.$primaryColor
+        border: solid 1px var(--third-color)
+        background-color: var(--primary-color)
 
         div
             position: relative
 
             button
-                background-color: c.$primaryColor
+                background-color: var(--primary-color)
                 padding: 1vmin
                 border: none
 
@@ -42,8 +41,8 @@ header
                 position: absolute
                 z-index: 1
                 display: none
-                background-color: c.$primaryColor
-                border: 1px c.$thirdColor solid
+                background-color: var(--primary-color)
+                border: 1px var(--third-color) solid
                 border-radius: 10%
                 right: -25%
 

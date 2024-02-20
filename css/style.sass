@@ -1,17 +1,29 @@
 //controller with misc css
-@use 'sass:color'
 @use 'colors' as c
 @use 'header'
 
+//global color themes depends on small script
+:root
+    --primary-color: #{c.$primaryColor}
+    --secondary-color: #{c.$secondaryColor}
+    --third-color: #{c.$thirdColor}
+    --text-color: #{c.$textColor}
+    --back-color: #{c.$hoverColor}
+.dark 
+    --primary-color: #{c.$primaryColor-dark}
+    --secondary-color: #{c.$secondaryColor-dark}
+    --third-color: #{c.$thirdColor-dark}
+    --text-color: #{c.$textColor-dark}
+    --back-color: #{c.$hoverColor-dark}
+
 @mixin hoverHighlight 
     &:hover 
-        background-color: color.scale(c.$primaryColor, $lightness: -10%, $saturation: 10%)
+        background-color: var(--back-color)
         border: solid 1px black
 
 *
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    color: c.$textColor
-
+    color: var(--text-color)
 
 h2, button
     font-size: 4vmin
@@ -21,7 +33,6 @@ h2, button
     @include hoverHighlight
     margin: 0
 
-//forced if statement cause i was to tired to figure out a decent one
-body
-    @if c.$mode
+@media (prefers-color-scheme: dark) 
+    body
         margin: 0

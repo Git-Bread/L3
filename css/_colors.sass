@@ -1,13 +1,17 @@
-//colors
-$textColor: #040103 
-$primaryColor: #bfe5bc 
+@use 'sass:color'
+//standard colors
+$textColor: #040103
+$primaryColor: #bfe5bc
 $secondaryColor: #83c181
-$thirdColor: #509051 
-$mode: false 
+$thirdColor: #509051
+$linkColor: #1e07ce,
+$hoverColor: color.scale($primaryColor, $lightness: -10%, $saturation: 10%)
 
-//reconfigure for darkmode
-@media (prefers-color-scheme: dark) 
-    $primaryColor: darken($primaryColor, 10%)
-    $secondaryColor: darken($secondaryColor, 10%)
-    $thirdColor: darken($thirdColor, 10%)
-    $mode: true
+//darkmode colors
+$textColor-dark: #ffffff,
+$linkColor-dark: brighten($primaryColor, 30%)
+$primaryColor-dark: darken($primaryColor, 30%)
+$secondaryColor-dark: darken($secondaryColor, 30%)
+$thirdColor-dark: darken($thirdColor, 30%)
+$hoverColor-dark: color.scale($primaryColor, $lightness: -10%, $saturation: 10%)
+

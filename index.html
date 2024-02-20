@@ -7,6 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="images/aborre.jpg?as=jpg&width=20" type="image/jpg"/>
         <link rel="stylesheet" href="css/style.sass">
+        <script>
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
+                document.getElementsByTagName("html")[0].setAttribute("class", "dark");
+            }
+        </script>
     </head>
     <body>
         <header>
