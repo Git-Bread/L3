@@ -18,6 +18,24 @@ h2, button
     @include hoverHighlight
     margin: 0
 
+a
+    color: var(--link-color)
+
 @media (prefers-color-scheme: dark) 
     body
         margin: 0
+        background-color: var(--third-color)
+
+
+section
+    article
+        background-color: var(--secondary-color)
+        padding: 3vmin
+        margin: 2vmin
+        border-radius: 2vmin
+    picture
+        display: flex
+        justify-content: center
+
+        img
+            max-width: 105%
