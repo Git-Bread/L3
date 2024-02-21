@@ -6,19 +6,27 @@ p, h3, a, h5
     max-width: 60ch
     font-size: 1.5rem
 
-@mixin hoverHighlight 
+
+//mixin and if example
+@mixin hoverHighlight($current: false)
     &:hover 
         background-color: var(--back-color)
         border: solid 1px black
+    @if $current
+        color: #da2901
+        border: none !important
 
 h2, button
     font-size: 2rem
     text-decoration: underline
     padding: 2vmin
     border-radius: 2vmin
-    @include hoverHighlight
+    @include hoverHighlight(false)
     margin: 0
     font-weight: bold
+
+#current
+    @include hoverHighlight(true)
 
 a
     color: var(--link-color)
